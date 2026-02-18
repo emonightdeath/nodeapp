@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/$USER/nodeapp/
+    - export DEPLOYPATH=/home1/sonezer4/james/nodeapp2_live/
     - /bin/mkdir -p $DEPLOYPATH
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -a . $DEPLOYPATH
